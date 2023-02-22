@@ -43,7 +43,10 @@ public class Lab {
         String buildingString = "";
 
 //        code here
-
+        for (start = start; start < end; start++){
+             buildingString = buildingString + start + " ";
+        }
         return buildingString;
+    
     }
 }
